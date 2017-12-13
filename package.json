@@ -1,0 +1,19 @@
+{
+  "name": "metro-sample-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build.js && echo '//# sourceMappingURL=./bundle.map' >> build/bundle.js",
+    "server": "node scripts/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "metro": "^0.24.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
