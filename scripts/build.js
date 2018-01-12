@@ -12,9 +12,7 @@ metro.runBuild({
   out: path.join(ROOT, 'build', 'bundle.js'),
   projectRoots: [path.join(ROOT, 'src')],
   config: {
-    getTransformModulePath() {
-      return path.join(ROOT, 'node_modules', 'metro', 'src', 'defaultTransform.js');
-    },
+    getTransformModulePath: () => require.resolve('metro/src/defaultTransform'),
   }
 }).then(() => {
   console.log('Production bundle created!');

@@ -9,9 +9,7 @@ metro.runServer({
   port: '8082',
   projectRoots: [path.join(ROOT, 'src')],
   config: {
-    getTransformModulePath() {
-      return path.join(ROOT, 'node_modules', 'metro', 'src', 'defaultTransform.js');
-    },
+    getTransformModulePath: () => require.resolve('metro/src/defaultTransform'),
   },
 }).then(() => {
   console.log('Metro server listening!');
