@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "babel-preset-react": "^6.24.1",
-    "metro": "^0.24.4",
+    "metro": "^0.24.6",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }
