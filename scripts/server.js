@@ -11,6 +11,7 @@ metro.runServer({
   config: {
     getTransformModulePath: () => require.resolve('metro/src/defaultTransform'),
   },
+  hmrEnabled: true,
 }).then(() => {
   console.log('Metro server listening!');
 }).catch(err => {

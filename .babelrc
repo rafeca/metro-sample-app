@@ -1,3 +1,18 @@
 {
-  "presets": ["react"]
+  "presets": ["react"],
+  "plugins": [[
+    'transform-es2015-modules-commonjs',
+    {strict: false, allowTopLevelThis: true},
+  ]],
+  "env": {
+    "development": {
+      "plugins": [["react-transform", {
+        "transforms": [{
+          "transform": "react-transform-hmr",
+          "imports": ["react"],
+          "locals": ["module"]
+        }]
+      }]]
+    }
+  }
 }

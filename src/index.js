@@ -28,3 +28,7 @@ class App extends React.Component {
 }
 
 ReactDOM.render(<App/>, document.getElementById('container'));
+
+if (__DEV__) {
+  require('./hmr');
+}
