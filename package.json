@@ -4,15 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node scripts/build.js && echo '//# sourceMappingURL=./bundle.map' >> build/bundle.js",
-    "server": "node scripts/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "metro build --dev=false --optimize=true src/index.js --out build/bundle.js && echo '//# sourceMappingURL=./bundle.map' >> build/bundle.js",
+    "server": "metro serve --port=8082 --hmr=true"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "babel-preset-react": "^6.24.1",
-    "metro": "^0.24.6",
+    "metro": "^0.24.7",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }
