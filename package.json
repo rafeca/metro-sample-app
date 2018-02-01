@@ -13,6 +13,7 @@
     "babel-preset-react": "^6.24.1",
     "metro": "^0.24.7",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-error-overlay": "^4.0.0"
   }
 }
