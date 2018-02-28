@@ -1,7 +1,7 @@
 'use strict';
 
 var ErrorOverlay = require('react-error-overlay');
-var HmrClient = require('metro/src/lib/bundle-modules/HmrClient.js');
+var HmrClient = require('metro/src/lib/bundle-modules/HMRClient.js');
 
 var lastError = null;
 var setupDone = false;
