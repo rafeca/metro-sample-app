@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "metro build --dev=false --optimize=true --out=build/bundle.js --source-map-url=./bundle.map src/index.js",
+    "build": "metro build --dev=false --optimize=true --out=build/bundle.js --source-map=true --source-map-url=./bundle.map src/index.js",
     "server": "metro serve --port=8082 --hmr=true"
   },
   "author": "",
