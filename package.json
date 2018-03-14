@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "babel-preset-react": "^6.24.1",
-    "metro": "^0.30.0",
+    "metro": "^0.30.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-error-overlay": "^4.0.0"
