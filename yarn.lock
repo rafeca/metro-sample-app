@@ -1735,35 +1735,25 @@ jest-docblock@^22.4.0:
   dependencies:
     detect-newline "^2.1.0"
 
-jest-haste-map@23.0.0-alpha.4:
-  version "23.0.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/jest-haste-map/-/jest-haste-map-23.0.0-alpha.4.tgz#0ec21bc59c2756d0da64d9ce604ac512cc3bb7ea"
+jest-haste-map@23.0.0-beta.1:
+  version "23.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/jest-haste-map/-/jest-haste-map-23.0.0-beta.1.tgz#dd91e3db30a08c2e657044c4822018c1ea9bd4e2"
   dependencies:
     fb-watchman "^2.0.0"
     graceful-fs "^4.1.11"
     jest-docblock "^22.4.0"
-    jest-serializer "^22.4.0"
-    jest-worker "^23.0.0-alpha.4"
+    jest-serializer "^23.0.0-beta.1"
+    jest-worker "^23.0.0-beta.1"
     micromatch "^2.3.11"
     sane "^2.0.0"
 
-jest-serializer@22.4.3:
-  version "22.4.3"
-  resolved "https://registry.yarnpkg.com/jest-serializer/-/jest-serializer-22.4.3.tgz#a679b81a7f111e4766235f4f0c46d230ee0f7436"
+jest-serializer@23.0.0-beta.1, jest-serializer@^23.0.0-beta.1:
+  version "23.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/jest-serializer/-/jest-serializer-23.0.0-beta.1.tgz#9477e40fe5aae17fa0aede803735a6e55812d65f"
 
-jest-serializer@^22.4.0:
-  version "22.4.0"
-  resolved "https://registry.yarnpkg.com/jest-serializer/-/jest-serializer-22.4.0.tgz#b5d145b98c4b0d2c20ab686609adbb81fe23b566"
-
-jest-worker@23.0.0-alpha.4:
-  version "23.0.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-23.0.0-alpha.4.tgz#e16bee22d0f6b0187ff13c5093edd6807b02c868"
-  dependencies:
-    merge-stream "^1.0.1"
-
-jest-worker@^23.0.0-alpha.4:
-  version "23.0.0-alpha.6r"
-  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-23.0.0-alpha.6r.tgz#26cd8c2e37a2209788c673d71ad4cbbaec717b2f"
+jest-worker@23.0.0-beta.1, jest-worker@^23.0.0-beta.1:
+  version "23.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-23.0.0-beta.1.tgz#2e3f815a0dc947f283138115bf06707c24c71043"
   dependencies:
     merge-stream "^1.0.1"
 
@@ -1925,6 +1915,19 @@ merge@^1.1.3:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/merge/-/merge-1.2.0.tgz#7531e39d4949c281a66b8c5a6e0265e8b05894da"
 
+metro-babel-register@0.35.0:
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/metro-babel-register/-/metro-babel-register-0.35.0.tgz#030dfdc3d2c2cc71ffbedd108f347ed4d197f2e8"
+  dependencies:
+    "@babel/plugin-proposal-class-properties" "7.0.0-beta.40"
+    "@babel/plugin-proposal-object-rest-spread" "7.0.0-beta.40"
+    "@babel/plugin-transform-async-to-generator" "7.0.0-beta.40"
+    "@babel/plugin-transform-flow-strip-types" "7.0.0-beta.40"
+    "@babel/plugin-transform-modules-commonjs" "7.0.0-beta.40"
+    "@babel/register" "7.0.0-beta.40"
+    core-js "^2.2.2"
+    escape-string-regexp "^1.0.5"
+
 metro-babel7-plugin-react-transform@0.33.0:
   version "0.33.0"
   resolved "https://registry.yarnpkg.com/metro-babel7-plugin-react-transform/-/metro-babel7-plugin-react-transform-0.33.0.tgz#3ab7486df1d9ff5e84935f41a631a64c98025746"
@@ -1932,58 +1935,65 @@ metro-babel7-plugin-react-transform@0.33.0:
     babel-helper-module-imports "^7.0.0-beta.3"
     lodash "^4.17.5"
 
-metro-babel7-plugin-react-transform@0.34.0, metro-babel7-plugin-react-transform@^0.34.0:
+metro-babel7-plugin-react-transform@0.35.0:
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/metro-babel7-plugin-react-transform/-/metro-babel7-plugin-react-transform-0.35.0.tgz#f92342fe4035421952aeb4e12ec91e1ffebde452"
+  dependencies:
+    babel-helper-module-imports "^7.0.0-beta.3"
+    lodash "^4.17.5"
+
+metro-babel7-plugin-react-transform@^0.34.0:
   version "0.34.0"
   resolved "https://registry.yarnpkg.com/metro-babel7-plugin-react-transform/-/metro-babel7-plugin-react-transform-0.34.0.tgz#b7e720eb31378a627091f2858f7ab99d64ec13ba"
   dependencies:
     babel-helper-module-imports "^7.0.0-beta.3"
     lodash "^4.17.5"
 
-metro-babylon7@0.34.0:
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/metro-babylon7/-/metro-babylon7-0.34.0.tgz#2e16ca027018e4a3a8752de2aaa6b3e2c1d3a3c9"
+metro-babylon7@0.35.0:
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/metro-babylon7/-/metro-babylon7-0.35.0.tgz#5d23fcd1e92b3ddb113274d5021524fd44329611"
   dependencies:
     babylon "7.0.0-beta.40"
 
-metro-cache@0.34.0:
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/metro-cache/-/metro-cache-0.34.0.tgz#10deb6b570290d459bc7d386fa0bfb080c5f1b7e"
+metro-cache@0.35.0:
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/metro-cache/-/metro-cache-0.35.0.tgz#211142673b98b4b3bcac79fb441053db76413a52"
   dependencies:
-    jest-serializer "22.4.3"
-    metro-core "0.34.0"
+    jest-serializer "23.0.0-beta.1"
+    metro-core "0.35.0"
     mkdirp "^0.5.1"
     rimraf "^2.5.4"
 
-metro-core@0.34.0:
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/metro-core/-/metro-core-0.34.0.tgz#8424aa3106260d3fdfd618af60ef6a496a8e4722"
+metro-core@0.35.0:
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/metro-core/-/metro-core-0.35.0.tgz#7adb84486a139a5f08c6c4af35d18703426a934e"
   dependencies:
-    jest-haste-map "23.0.0-alpha.4"
+    jest-haste-map "23.0.0-beta.1"
     lodash.throttle "^4.1.1"
-    metro-resolver "0.34.0"
+    metro-resolver "0.35.0"
     wordwrap "^1.0.0"
 
-metro-minify-uglify@0.34.0:
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/metro-minify-uglify/-/metro-minify-uglify-0.34.0.tgz#510e367973837aed11f06f9b7ff28843ccb85d45"
+metro-minify-uglify@0.35.0:
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/metro-minify-uglify/-/metro-minify-uglify-0.35.0.tgz#db00592d81b34e47b40860cc300c36bb5726446f"
   dependencies:
     uglify-es "^3.1.9"
 
-metro-resolver@0.34.0:
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/metro-resolver/-/metro-resolver-0.34.0.tgz#6685ca9f8c951cf1235d6cf8d3172d32b74a56b5"
+metro-resolver@0.35.0:
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/metro-resolver/-/metro-resolver-0.35.0.tgz#9b6956b68cbea6c8eed69871b54a8e9fe464ec43"
   dependencies:
     absolute-path "^0.0.0"
 
-metro-source-map@0.34.0:
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/metro-source-map/-/metro-source-map-0.34.0.tgz#ec429dc459abf94d408dd0be5f8db8e11c1b698e"
+metro-source-map@0.35.0:
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/metro-source-map/-/metro-source-map-0.35.0.tgz#0b2c70621536783177a01fbad717dee29f3e3005"
   dependencies:
     source-map "^0.5.6"
 
-metro@^0.34.0:
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/metro/-/metro-0.34.0.tgz#29b7f761f8d9cb81e39a347e9259a0734c41c9a1"
+metro@^0.35.0:
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/metro/-/metro-0.35.0.tgz#90474a7eca345ee328eaf2be12bcdff21478e4d2"
   dependencies:
     "@babel/core" "7.0.0-beta.40"
     "@babel/generator" "7.0.0-beta.40"
@@ -2033,7 +2043,6 @@ metro@^0.34.0:
     chalk "^1.1.1"
     concat-stream "^1.6.0"
     connect "^3.6.5"
-    core-js "^2.2.2"
     debug "^2.2.0"
     denodeify "^1.2.1"
     eventemitter3 "^3.0.0"
@@ -2042,20 +2051,21 @@ metro@^0.34.0:
     graceful-fs "^4.1.3"
     image-size "^0.6.0"
     jest-docblock "22.4.3"
-    jest-haste-map "23.0.0-alpha.4"
-    jest-worker "23.0.0-alpha.4"
+    jest-haste-map "23.0.0-beta.1"
+    jest-worker "23.0.0-beta.1"
     json-stable-stringify "^1.0.1"
     json5 "^0.4.0"
     left-pad "^1.1.3"
     lodash.throttle "^4.1.1"
     merge-stream "^1.0.1"
-    metro-babel7-plugin-react-transform "0.34.0"
-    metro-babylon7 "0.34.0"
-    metro-cache "0.34.0"
-    metro-core "0.34.0"
-    metro-minify-uglify "0.34.0"
-    metro-resolver "0.34.0"
-    metro-source-map "0.34.0"
+    metro-babel-register "0.35.0"
+    metro-babel7-plugin-react-transform "0.35.0"
+    metro-babylon7 "0.35.0"
+    metro-cache "0.35.0"
+    metro-core "0.35.0"
+    metro-minify-uglify "0.35.0"
+    metro-resolver "0.35.0"
+    metro-source-map "0.35.0"
     mime-types "2.1.11"
     mkdirp "^0.5.1"
     node-fetch "^1.3.3"
