@@ -23,7 +23,11 @@ class App extends React.Component {
   }
 
   _onClick() {
-    this.setState({numLikes: this.state.numLikes + 1})
+    this.setState({numLikes: this.state.numLikes + 1});
+
+    import('./asyncFile')
+      .then(() => console.log('async file imported!'))
+      .catch(err => console.error('error importing async file!', err));
   }
 }
 

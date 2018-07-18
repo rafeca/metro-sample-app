@@ -1,9 +1,12 @@
 {
   "presets": ["@babel/preset-react"],
-  "plugins": [[
-    "@babel/plugin-transform-modules-commonjs",
-    {strict: false, allowTopLevelThis: true},
-  ]],
+  "plugins": [
+    [
+      "@babel/plugin-transform-modules-commonjs",
+      {strict: false, allowTopLevelThis: true},
+    ],
+    ["@babel/plugin-syntax-dynamic-import"]
+  ],
   "env": {
     "development": {
       "plugins": [[
