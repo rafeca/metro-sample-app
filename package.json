@@ -10,9 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/plugin-transform-modules-commonjs": "7.0.0-beta.47",
-    "@babel/preset-react": "7.0.0-beta.47",
-    "metro": "^0.43.3",
+    "@babel/plugin-transform-modules-commonjs": "7.0.0",
+    "@babel/preset-react": "7.0.0",
+    "metro": "^0.47.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-error-overlay": "^4.0.0"
