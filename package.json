@@ -5,16 +5,21 @@
   "main": "index.js",
   "scripts": {
     "build": "metro build --dev=false --minify=true --out=build/bundle.js --source-map=true --source-map-url=./bundle.map src/index.js",
-    "server": "metro serve --port=8082 --hmr=true"
+    "server": "metro serve --port=8082 --hmr=true",
+    "devserver": "node ./scripts/runDevMetroServer.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@babel/plugin-transform-modules-commonjs": "7.0.0",
+    "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "7.0.0",
     "metro": "^0.47.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-error-overlay": "^4.0.0"
+  },
+  "devDependencies": {
+    "metro-babel-register": "^0.47.0"
   }
 }
