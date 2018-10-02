@@ -13,6 +13,7 @@
     "@babel/plugin-transform-modules-commonjs": "7.0.0",
     "@babel/preset-react": "7.0.0",
     "metro": "^0.47.0",
+    "metro-visualizer": "^0.47.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-error-overlay": "^4.0.0"
